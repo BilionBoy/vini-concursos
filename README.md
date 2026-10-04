@@ -12,6 +12,7 @@ assets/main.js        menu mobile, seção ativa no menu e galeria
 assets/fonts/         fontes
 images/               fotos
 _headers              cabeçalhos de segurança e cache (Cloudflare Pages / Netlify)
+vercel.json           os mesmos cabeçalhos, para a Vercel
 ```
 
 ## Rodar localmente
@@ -21,6 +22,10 @@ python3 -m http.server 8000
 ```
 
 Abrir http://localhost:8000
+
+## Publicar na Vercel
+
+vercel.com → Add New → Project → importar o repositório → Framework Preset: **Other** → sem build command → Deploy.
 
 ## Publicar no Cloudflare Pages
 
