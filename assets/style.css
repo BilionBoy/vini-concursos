@@ -150,11 +150,9 @@ a:focus-visible,button:focus-visible {
 }
 
 .landing {
-  --u:min(.09765625vw,1.5625px);
+  --u:.09765625vw;
   position:relative;
   isolation:isolate;
-  max-width:1600px;
-  margin-inline:auto;
   overflow:clip;
   background-color:var(--ink);
   background-image:linear-gradient(90deg,transparent calc(100% - 1px),#d6c9a909 0),linear-gradient(transparent calc(100% - 1px),#d6c9a909 0),linear-gradient(90deg,transparent calc(100% - 1px),#d6c9a904 0);
