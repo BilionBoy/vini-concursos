@@ -1,0 +1,8 @@
+@font-face { font-family:'Bodoni Moda'; src:url('fonts/bodoni-moda-600.ttf') format('truetype'); font-weight:600; font-display:swap; }
+@font-face { font-family:Barlow; src:url('fonts/barlow-500.ttf') format('truetype'); font-weight:500; font-display:swap; }
+* { box-sizing:border-box; margin:0; }
+body { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px; background:#101211; color:#f1ebe1; text-align:center; font-family:Barlow,sans-serif; }
+.code { color:#da3029; letter-spacing:4px; font-size:14px; }
+h1 { margin:16px 0 32px; font:600 clamp(32px,8vw,56px)/1.05 'Bodoni Moda',serif; text-transform:uppercase; }
+a { display:inline-block; padding:16px 28px; border:1px solid #f1ebe1; color:#f1ebe1; text-decoration:none; text-transform:uppercase; letter-spacing:2px; font-size:12px; }
+a:hover, a:focus-visible { background:#f1ebe1; color:#101211; }
