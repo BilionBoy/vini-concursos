@@ -316,8 +316,8 @@ a:focus-visible,button:focus-visible {
 }
 
 .brand__monogram {
-  font:400 calc(34 * var(--u))/1 var(--serif);
-  letter-spacing:calc(-3 * var(--u));
+  font:italic 400 calc(30 * var(--u))/1 var(--serif);
+  letter-spacing:0;
   padding-right:calc(18 * var(--u));
   border-right:var(--stroke) solid var(--line);
 }
@@ -1129,7 +1129,7 @@ h1 em {
 }
 
 .brand--footer .brand__monogram {
-  font-size:calc(32 * var(--u));
+  font-size:calc(28 * var(--u));
 }
 
 .brand--footer .brand__name {
@@ -1313,8 +1313,8 @@ dialog h2 {
     gap:14px;
   }
   .brand__monogram {
-    font-size:33px;
-    padding-right:16px;
+    font-size:27px;
+    padding-right:14px;
   }
   .brand__name {
     font-size:11px;
@@ -1803,7 +1803,7 @@ dialog h2 {
     gap:12px;
   }
   .brand--footer .brand__monogram {
-    font-size:33px;
+    font-size:27px;
   }
   .brand--footer .brand__name {
     font-size:9px;
