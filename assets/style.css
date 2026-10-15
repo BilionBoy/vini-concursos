@@ -2012,3 +2012,26 @@ dialog h2 {
   }
 }
 
+
+/* Retrato original e apresentação do professor. */
+.hero { background-color:#101211; }
+.hero__portrait {
+  left:auto;
+  width:52%;
+  object-fit:contain;
+  object-position:center top;
+  filter:none;
+}
+.about { padding:clamp(28px,4vw,64px); }
+.about__summary {
+  max-width:850px;
+  margin:24px 0 0;
+  font:400 clamp(16px,1.5vw,22px)/1.7 var(--sans);
+}
+.footer { flex-wrap:wrap; padding-block:24px; }
+.footer__quote { max-width:480px; line-height:1.5; }
+.footer .evidence-link { white-space:normal; max-width:290px; line-height:1.5; }
+@media(max-width:900px) {
+  .hero__portrait { width:100%; object-position:center top; }
+  .footer__quote { max-width:100%; }
+}
