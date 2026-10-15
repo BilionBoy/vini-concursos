@@ -2035,3 +2035,12 @@ dialog h2 {
   .hero__portrait { width:100%; object-position:center top; }
   .footer__quote { max-width:100%; }
 }
+
+/* A grade fica no texto e não atravessa o retrato. */
+.hero::before {
+  -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 42%,transparent 48%);
+  mask-image:linear-gradient(90deg,#000 0%,#000 42%,transparent 48%);
+}
+@media(max-width:900px) {
+  .hero::before { display:none; }
+}
